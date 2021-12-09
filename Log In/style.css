@@ -1,7 +1,10 @@
+body, html {
+    height: 120%;
+    margin: 0%;
+}
 body{
     background-image: url(./Back2.png);
-    background-size: cover;
-    
+    background-position: center;
 }
 
 #box {
@@ -35,17 +38,17 @@ body{
 }
 .action1{
     position: relative;
-    top: -394px;
+    top: -417px;
     left: 468px;
 }
 .action2{
     position: relative;
-    top: -811px;
+    top: -832px;
     left: 838px;
 }
 .horr1{
     position: relative;
-    top: -1226px;
+    top: -1252px;
     left: 1208px;
 }
 .horr2{
@@ -68,4 +71,78 @@ body{
     top: -2446px;
     left: 104px;
 }
+#AN1{
+    border-radius: 29px;
+}
+.bot1{
+    position: relative;
+    left: 154px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot2{
+    position: relative;
+    left: -244px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot3{
+    position: relative;
+    left: -244px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot4{
+    position: relative;
+    left: -242px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot5{
+    position: relative;
+    left: -239px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot6{
+    position: relative;
+    left: -244px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot7{
+    position: relative;
+    left: -244px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
+.bot8{
+    position: relative;
+    left: -244px;
+    top: 21px;
+    width: 200px;
+    background-color: red;
+}
 
+.vid1{
+    position: relative;
+    left: 4px;
+    top: 388px;
+}
+.vid2{
+    position: relative;
+    left: -484px;
+    top: 388px;
+}
+
+#desNaruto{
+    font-size: 23px;
+    color: red;
+}

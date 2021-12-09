@@ -1,0 +1,40 @@
+body{
+    background-image: url(./backk.png);
+    background-size: cover;
+    position: fixed;
+}
+#mail{
+    position: relative;
+    left: 248px;
+    top: 399px;
+    height: 60px;
+    width: 400px;
+}
+#sing{
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 799px;
+    top: 400px;
+    height: 67px;
+    width: 140px;
+}
+.box{
+    position: relative;
+    left: 99px;
+    top: 100px;
+    position: fixed;
+}
+#Log{
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 1036px;
+    top: -144px;
+    height: 40px;
+    width: 90px;
+}
+.imgg{
+    width: 417px;
+    height: 183px;
+}

@@ -1,0 +1,71 @@
+body{
+    background-image: url(./Back2.png);
+    background-size: cover;
+    
+}
+
+#box {
+    position: relative;
+    left: 1036px;
+}
+.home{
+    position: relative;
+    right: 20px;
+}
+.about{
+    position: relative;
+    right: 20px;
+}
+.service{
+    position: relative;
+    right: 20px;
+}
+
+#mo{
+    width: 77px;
+    height: 31px;
+    position: relative;
+    top: 2px;
+    background-color: purple;
+}
+.anime1{
+    position: relative;
+    top: 23px;
+    left: 104px;
+}
+.action1{
+    position: relative;
+    top: -394px;
+    left: 468px;
+}
+.action2{
+    position: relative;
+    top: -811px;
+    left: 838px;
+}
+.horr1{
+    position: relative;
+    top: -1226px;
+    left: 1208px;
+}
+.horr2{
+    position: relative;
+    top: -1193px;
+    left: 1208px;
+}
+.action3{
+    position: relative;
+    top: -1612px;
+    left: 838px;
+}
+.horr3{
+    position: relative;
+    top: -2028px;
+    left: 468px;
+}
+.anime2{
+    position: relative;
+    top: -2446px;
+    left: 104px;
+}
+

@@ -38,3 +38,44 @@ body{
     width: 417px;
     height: 183px;
 }
+.log{
+    position: relative;
+    left: 129%;top: 232px;
+    border: solid;
+    margin: 24px 0 12px 0;
+    font-size: larger;
+    width: 453px;
+    background-color: rgba(12, 10, 7, 0.541);
+}
+.mail{
+    width: 312px;
+    height: 32px;
+    margin-left: 20px;
+    background-color: silver;
+}
+.pass{
+    width: 312px;
+    height: 32px; 
+    background-color: silver;
+    margin-left: 20px;
+
+}
+#E{
+    font-size: 1.2em;
+    color: red;
+    position: relative;
+    left: -93px;
+}
+.Pa{
+    font-size: 1.2em;
+    color: red;
+}
+.log2{
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 354px;
+    top: 58px;
+    height: 40px;
+    width: 90px;
+}

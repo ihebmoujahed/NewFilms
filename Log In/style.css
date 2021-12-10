@@ -11,6 +11,10 @@ body{
     position: relative;
     left: 1036px;
 }
+#box2 {
+    position: relative;
+    top: -53px;
+}
 .home{
     position: relative;
     right: 20px;
@@ -141,8 +145,110 @@ body{
     left: -484px;
     top: 388px;
 }
+.vid3{
+    position: relative;
+    left: -484px;
+    top: 388px;
+}
+.vid4{
+    position: relative;
+    left: -484px;
+    top: 388px;
+}
+.vid5{
+    position: relative;
+    left: -484px;
+    top: 388px;
+}
+.vid6{
+    position: relative;
+    left: -484px;
+    top: 388px;
+}
 
 #desNaruto{
     font-size: 23px;
     color: red;
+    border: solid;
+    border-color: black;
+    background: rgba(45, 4, 143, 0.226);
+}
+#desc2{
+    font-size: 23px;
+    color: red;
+    border: solid;
+    border-color: black;
+    background: rgba(45, 4, 143, 0.226);
+    position: relative;
+    top: 413px;
+    left: -368px;
+}
+
+.Horrors1{
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(15, 15, 85); 
+  color: rgb(206, 30, 30); 
+  border: 2px solid #19cf19;
+}
+
+.Actions1{
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(15, 15, 85); 
+  color: rgb(206, 30, 30); 
+  border: 2px solid #19cf19;
+}
+.Animes1{
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(15, 15, 85); 
+  color: rgb(206, 30, 30); 
+  border: 2px solid #19cf19;
+}
+
+.home{
+    position: relative;
+    left: 362px;
+    top: -49px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: aqua;  
+}
+#SER{
+    
+    width: 239px;
+    height: 43px;
+    
+}
+#ss{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: aqua; 
+    width: 97px;
+    height: 43px;
 }

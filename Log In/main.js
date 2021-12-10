@@ -1,9 +1,37 @@
+$("#page").hide()
+$("#sing").click(function(){
+  $("#page").hide()
+})
+$("#title").hide()
 
+$("#sing").click(function(){
+    if(x===111){
+       alert("gooo") 
+    }
+})
 
 $("#desNaruto").hide()
 $(".vid1").hide()
 $(".vid2").hide()
+$(".vid3").hide()
+$(".vid4").hide()
+$(".vid5").hide()
+$(".vid6").hide()
+////////////////////////////
+function sera(){
+  var x = document.getElementById("SER").value
 
+  for(var i = 0 ; i<Movies.length;i++){
+    for( var j = 0 ; j< Movies[i].length;j++){
+      console.log(Movies[i][j].name)
+    if(x==Movies[i][j].name){
+     return alert("foundet")
+    }
+    else if(x === undefined){
+      return alert("there is Note")
+    }
+  }}
+}
 function nar(){
     $("#AC1").hide()
     $("#AN2").hide()
@@ -16,6 +44,7 @@ function nar(){
     $(".vid1").show().css("left","584px").css("top","19px")
     $("#AN1").css("left","664px").css("top","4px")
     $("#desNaruto").show()
+    $(".bot1").hide()
     
 
 }
@@ -51,14 +80,15 @@ function each(coll, f) {
 }
 
 
-function movie (image){
+function movie (image,name){
     return {
+        name : name,
         image : image 
     }
 }
-
-var anime1 =movie($(".anime1"))
-var anime2 =movie($(".anime2"))
+var naruto = document.getElementById("title").innerText
+var anime1 =movie($(".anime1"), naruto)
+var anime2 =movie($(".anime2"),$(".boruto"))
 var Animes =[anime1,anime2]
 ///////////////////////////////////
 var action1 = movie($(".action1"))
@@ -81,6 +111,8 @@ function act(){
         }
     })
 }
+///////////////
+
 function act(){
     $(".action1").css("top","3px").css("left","468")
     $("#AC2").css("top","-415px")
@@ -137,7 +169,7 @@ function ani(){
     $("#AC2").hide()
     $("#AC3").hide()
 }
-
+$("#desc2").hide()
 function Hand(){
     $(".bot1").hide()
     $(".bot2").hide()
@@ -150,6 +182,70 @@ function Hand(){
     $("#AC3").hide()
     $(".vid2").show()
     $("#AC1").css("left","664px").css("top","4px")
-    
+    $("#desc2").show()
+}
 
+function dead(){
+  $(".bot1").hide()
+  $(".bot2").hide()
+  $(".bot3").hide()
+  $("#AN1").hide()
+  $("#HR1").hide()
+  $("#HR2").hide()
+  $("#HR3").hide()
+  $("#AN2").hide()
+  $("#AC2").css("left","664px").css("top","4px")
+  $("#AC3").hide()
+  $("#AC1").hide()
+  $(".vid3").show()
+}
+
+
+function h1(){
+  $(".bot1").hide()
+  $(".bot2").hide()
+  $(".bot3").hide()
+  $(".bot4").hide()
+  $("#AN1").hide()
+  $("#AC2").hide()
+  $("#HR2").hide()
+  $("#HR3").hide()
+  $("#AN2").hide()
+  $("#HR1").css("left","664px").css("top","4px")
+  $("#AC3").hide()
+  $("#AC1").hide()
+  $(".vid4").show()
+}
+function h2(){
+  $(".bot1").hide()
+  $(".bot2").hide()
+  $(".bot3").hide()
+  $(".bot4").hide()
+  $(".bot5").hide()
+  $("#AN1").hide()
+  $("#AC2").hide()
+  $("#HR1").hide()
+  $("#HR3").hide()
+  $("#AN2").hide()
+  $("#HR2").css("left","664px").css("top","4px")
+  $("#AC3").hide()
+  $("#AC1").hide()
+  $(".vid5").show()
+}
+function a3(){
+  $(".bot1").hide()
+  $(".bot2").hide()
+  $(".bot3").hide()
+  $(".bot4").hide()
+  $(".bot5").hide()
+  $(".bot6").hide()
+  $("#AN1").hide()
+  $("#AC2").hide()
+  $("#HR1").hide()
+  $("#HR3").hide()
+  $("#AN2").hide()
+  $("#AC3").css("left","664px").css("top","4px")
+  $("#HR2").hide()
+  $("#AC1").hide()
+  $(".vid6").show()
 }
